@@ -23,16 +23,16 @@ npx cypress run --spec **/*.feature
 ###### Test scenarios covered ######
 Scenario 1: Search for valid entity and verify details
 - Navigate to https://abr.business.gov.au/.
-- Enter <ABN name or number> in the search field and click search.
+- Enter ABN name or number in the search field and click search.
 - Click on the correct ABN link from search result.
 - Assert the ABN details are valid as per input json.
 
 Scenario 2: Search for invalid entity and verify details
 - Navigate to https://abr.business.gov.au/.
-- Enter invalid <ABN number> in the search field and click search.
+- Enter invalid ABN number in the search field and click search.
 - Assert error details in the page content.
-- Assert the links for advanced search, format specification and FAQs as per <ABN number>
+- Assert the links for advanced search, format specification and FAQs as per ABN number
 
 Optional Scenario: Search for valid entity and verify details
-- Json test input is making extending test scenarios for any valid <ABN name or number> easy.
+- Json test input is making extending test scenarios for any valid ABN name or number easy.
 - Enhanced reporting using mocha.
