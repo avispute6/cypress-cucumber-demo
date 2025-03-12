@@ -23,7 +23,7 @@
             "name": "I open ABN Lookup website",
             "result": {
               "status": "passed",
-              "duration": 1415000000
+              "duration": 1788000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I search for \"Automic Pty Ltd\" ABN",
             "result": {
               "status": "passed",
-              "duration": 689000000
+              "duration": 907000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I click on \"Automic Pty Ltd\" link to get details",
             "result": {
               "status": "passed",
-              "duration": 192000000
+              "duration": 306000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I validate business details for \"automic\" ABN",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 149000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "I open ABN Lookup website",
             "result": {
               "status": "passed",
-              "duration": 141000000
+              "duration": 215000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I search for \"00000000000\" ABN",
             "result": {
               "status": "passed",
-              "duration": 371000000
+              "duration": 499000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I goto invalid abn page",
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I should see error message for invalid ABN \"00000000000\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 23000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "I open ABN Lookup website",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 168000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I search for \"Google Australia Pty Ltd\" ABN",
             "result": {
               "status": "passed",
-              "duration": 585000000
+              "duration": 636000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I click on \"Google Australia Pty Ltd\" link to get details",
             "result": {
               "status": "passed",
-              "duration": 186000000
+              "duration": 201000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I validate business details for \"google\" ABN",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 32000000
             }
           }
         ]

@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2025-03-11T18:58:16.502Z",
-    "end": "2025-03-11T18:58:20.288Z",
-    "duration": 3786,
+    "start": "2025-03-12T01:51:02.394Z",
+    "end": "2025-03-12T01:51:07.355Z",
+    "duration": 4961,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0aa3f1db-aac6-476e-9f59-acdae1814782",
+      "uuid": "27a83cc5-139e-4d73-8ab4-86ce7de7e16d",
       "title": "",
       "fullFile": "cypress/e2e/abnLookup.feature",
       "file": "cypress/e2e/abnLookup.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "83318be7-5253-4e34-bbf4-ec57956e52a4",
+          "uuid": "6b14d7ab-a08c-4440-aba0-cdeb21f721d9",
           "title": "ABN Lookup - Verify ABN Lookup Page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Validate ABN lookup page for valid entity Automic Pty Ltd",
               "fullTitle": "ABN Lookup - Verify ABN Lookup Page Validate ABN lookup page for valid entity Automic Pty Ltd",
               "timedOut": null,
-              "duration": 2342,
+              "duration": 3121,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "dd5946ec-709d-4d88-9df7-be439f14e000",
-              "parentUUID": "83318be7-5253-4e34-bbf4-ec57956e52a4",
+              "uuid": "f75b373a-0fae-46ad-950d-1bca26c797c9",
+              "parentUUID": "6b14d7ab-a08c-4440-aba0-cdeb21f721d9",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Validate ABN lookup page for invalid entity",
               "fullTitle": "ABN Lookup - Verify ABN Lookup Page Validate ABN lookup page for invalid entity",
               "timedOut": null,
-              "duration": 496,
+              "duration": 689,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "e0658ccf-44f1-408c-ae06-6187c24da47f",
-              "parentUUID": "83318be7-5253-4e34-bbf4-ec57956e52a4",
+              "uuid": "a07e4933-6fa5-4e4a-87cc-8e59e6c51c42",
+              "parentUUID": "6b14d7ab-a08c-4440-aba0-cdeb21f721d9",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "Validate ABN lookup page for valid entity Google Australia PTY LTD",
               "fullTitle": "ABN Lookup - Verify ABN Lookup Page Validate ABN lookup page for valid entity Google Australia PTY LTD",
               "timedOut": null,
-              "duration": 885,
+              "duration": 1021,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "0326b5f5-a362-4bb6-a9eb-f9877ef0ad55",
-              "parentUUID": "83318be7-5253-4e34-bbf4-ec57956e52a4",
+              "uuid": "21c5d26f-acf7-4aae-bf15-b2e04a847b8d",
+              "parentUUID": "6b14d7ab-a08c-4440-aba0-cdeb21f721d9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "dd5946ec-709d-4d88-9df7-be439f14e000",
-            "e0658ccf-44f1-408c-ae06-6187c24da47f",
-            "0326b5f5-a362-4bb6-a9eb-f9877ef0ad55"
+            "f75b373a-0fae-46ad-950d-1bca26c797c9",
+            "a07e4933-6fa5-4e4a-87cc-8e59e6c51c42",
+            "21c5d26f-acf7-4aae-bf15-b2e04a847b8d"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3723,
+          "duration": 4831,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
