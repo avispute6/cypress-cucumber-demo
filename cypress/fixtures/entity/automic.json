@@ -1,0 +1,21 @@
+{
+  "pagetitle": "Current details for ABN 27 152 260 814",
+  "ABN": "27152260814",
+  "ABNdetails" : {
+    "name": "AUTOMIC PTY LTD",
+    "type": "Australian Private Company",
+    "status": "Active from 19 Jun 2012",
+    "gst": "Registered from 01 Apr 2012",
+    "location": "NSW 2000"
+  },
+  "BusinessNames": [
+    {
+      "name": "CoSecPro",
+      "date": "20 Oct 2018"
+    },
+    {
+      "name": "Automic Group",
+      "date": "09 Oct 2018"
+    }
+  ]
+}
