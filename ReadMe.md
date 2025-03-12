@@ -1,16 +1,24 @@
 ###### Install npm modules ######
+```
 npm install
+```
 
 ###### To run tests ######
+```
 npm run test
+```
 
 ###### To debug tests ######
+```
 npx cypress open
+```
 
 This will open cypress run window with specs listed, tap on test to start execution. During execution please use browser console to debug a test.
 
 ###### To run cucumber feature files ######
+```
 npx cypress run --spec **/*.feature
+```
 
 ###### Test scenarios covered ######
 Scenario 1: Search for valid entity and verify details
